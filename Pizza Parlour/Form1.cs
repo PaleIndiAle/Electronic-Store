@@ -45,6 +45,18 @@ namespace Pizza_Parlour
         {
             try
             {
+                storeLabel.Visible = false;
+                novelLabel2.Visible = false;
+                graphicLabel2.Visible = false;
+                toyLabel2.Visible = false;
+                gameLabel2.Visible = false;
+                subtotalLabel2.Visible = false;
+                taxLabel2.Visible = false;
+                totalLabel2.Visible = false;
+                tenderedLabel2.Visible = false;
+                totalLabel2.Visible = false;
+                changeLabel2.Visible = false;
+                thnakYou.Visible = false;
                 novel = Convert.ToInt32(novelInput.Text);
                 graphic = Convert.ToInt32(graphicInput.Text);
                 toy = Convert.ToInt32(toyInput.Text);
@@ -97,17 +109,40 @@ namespace Pizza_Parlour
             player.URL = @"C:\Users\KNS\Downloads\Wooden Long Sliding Door (Sound Effect) #shorts.mp3";
             player.controls.play();
 
+            storeLabel.Visible = true;
             novelOutput.Text = $"{novelTotal.ToString("C")}";
+            Thread.Sleep(1000);
+            novelLabel2.Visible = true;
+            novelOutput.Text = $"{novelTotal.ToString("C")}";
+            Thread.Sleep(1000);
+            graphicLabel2.Visible = true;
             graphicOutput.Text = $"{graphicTotal.ToString("C")}";
+            Thread.Sleep(1000);
+            toyLabel2.Visible = true;
             toyOutput.Text = $"{toyTotal.ToString("C")}";
+            Thread.Sleep(1000);
+            gameLabel2.Visible = true;
             gameOutput.Text = $"{gameTotal.ToString("C")}";
-
+            Thread.Sleep(1000);
+            subtotalLabel2.Visible = true;
             subtotalOutput2.Text = $"{subtotal.ToString("C")}";
+            Thread.Sleep(1000);
+            taxLabel2.Visible = true;
             taxOutput2.Text = $"{tax.ToString("C")}";
+            Thread.Sleep(1000);
+            totalLabel2.Visible = true;
             totalOutput2.Text = $"{total.ToString("C")}";
+            Thread.Sleep(1000);
+            tenderedLabel2.Visible = true;
             tenderedOutput.Text = $"{tenderedAmount.ToString("C")}";
+            Thread.Sleep(1000);
+            totalLabel2.Visible = true;
             totalOutput.Text = $"{total.ToString("C")}";
+            Thread.Sleep(1000);
+            changeLabel2.Visible = true;
             changeOutput2.Text = $"{changeAmount.ToString("C")}";
+            Thread.Sleep(1000);
+            thnakYou.Visible = true;
         }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form));
             this.title = new System.Windows.Forms.Label();
             this.subtotalLabel = new System.Windows.Forms.Label();
             this.taxLabel = new System.Windows.Forms.Label();
@@ -538,8 +539,9 @@
             this.Controls.Add(this.subtotalLabel);
             this.Controls.Add(this.novelLabel);
             this.Controls.Add(this.title);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "form";
-            this.Text = "Form1";
+            this.Text = "Entertainment Store";
             this.ResumeLayout(false);
             this.PerformLayout();
 
