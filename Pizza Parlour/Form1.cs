@@ -115,61 +115,66 @@ namespace Pizza_Parlour
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Size = new Size(810, 415);
+            this.Size = new Size(840, 415);
             player.URL = @"C:\Users\KNS\Downloads\Wooden Long Sliding Door (Sound Effect) #shorts.mp3";
             player.controls.play();
 
+            label6.Size = new Size(292, 78);
             novelLabel2.Visible = true;
             novelOutput.Visible = true;
             novelOutput.Text = $"{novelTotal.ToString("C")}";
             Refresh();
             Thread.Sleep(1000);
+            label6.Size = new Size(292, 102);
             graphicLabel2.Visible = true;
             graphicOutput.Visible = true;
             graphicOutput.Text = $"{graphicTotal.ToString("C")}";
             Refresh();
             Thread.Sleep(1000);
+            label6.Size = new Size(292, 133);
             toyOutput.Visible = true;
             toyLabel2.Visible = true;
             toyOutput.Text = $"{toyTotal.ToString("C")}";
             Refresh();
             Thread.Sleep(1000);
+            label6.Size = new Size(292, 166);
             gameOutput.Visible = true;
             gameLabel2.Visible = true;
             gameOutput.Text = $"{gameTotal.ToString("C")}";
             Refresh();
             Thread.Sleep(1000);
+            label6.Size = new Size(292, 196);
             subtotalOutput2.Visible = true;
             subtotalLabel2.Visible = true;
             subtotalOutput2.Text = $"{subtotal.ToString("C")}";
             Refresh();
             Thread.Sleep(1000);
+            label6.Size = new Size(292, 229);
             taxOutput2.Visible = true;
             taxLabel2.Visible = true;
             taxOutput2.Text = $"{tax.ToString("C")}";
             Refresh();
             Thread.Sleep(1000);
+            label6.Size = new Size(292, 260);
             totalOutput2.Visible = true;
             totalLabel2.Visible = true;
             totalOutput2.Text = $"{total.ToString("C")}";
             Refresh();
             Thread.Sleep(1000);
+            label6.Size = new Size(292, 289);
             tenderedOutput.Visible = true;
             tenderedLabel2.Visible = true;
             tenderedOutput.Text = $"{tenderedAmount.ToString("C")}";
             Refresh();
             Thread.Sleep(1000);
-            totalOutput.Visible = true;
-            totalLabel2.Visible = true;
-            totalOutput.Text = $"{total.ToString("C")}";
-            Refresh();
-            Thread.Sleep(1000);
+            label6.Size = new Size(292, 333);
             changeOutput2.Visible = true;
             changeLabel2.Visible = true;
             changeOutput2.Text = $"{changeAmount.ToString("C")}";
             Refresh();
             Thread.Sleep(1000);
             thankYou.Visible = true;
+            calculateButton.Text = "Calculate New Order";
         }
     }
 }
