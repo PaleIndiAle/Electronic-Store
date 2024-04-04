@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form));
             this.title = new System.Windows.Forms.Label();
             this.subtotalLabel = new System.Windows.Forms.Label();
             this.taxLabel = new System.Windows.Forms.Label();
@@ -66,7 +65,7 @@
             this.taxOutput2 = new System.Windows.Forms.TextBox();
             this.taxLabel2 = new System.Windows.Forms.Label();
             this.totalOutput2 = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
+            this.totalLabel2 = new System.Windows.Forms.Label();
             this.thankYou = new System.Windows.Forms.Label();
             this.tenderedOutput = new System.Windows.Forms.TextBox();
             this.tenderedLabel2 = new System.Windows.Forms.Label();
@@ -432,15 +431,15 @@
             this.totalOutput2.Size = new System.Drawing.Size(69, 22);
             this.totalOutput2.TabIndex = 37;
             // 
-            // label11
+            // totalLabel2
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(532, 247);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 16);
-            this.label11.TabIndex = 36;
-            this.label11.Text = "Total:";
+            this.totalLabel2.AutoSize = true;
+            this.totalLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalLabel2.Location = new System.Drawing.Point(532, 247);
+            this.totalLabel2.Name = "totalLabel2";
+            this.totalLabel2.Size = new System.Drawing.Size(41, 16);
+            this.totalLabel2.TabIndex = 36;
+            this.totalLabel2.Text = "Total:";
             // 
             // thankYou
             // 
@@ -502,7 +501,7 @@
             this.Controls.Add(this.tenderedLabel2);
             this.Controls.Add(this.thankYou);
             this.Controls.Add(this.totalOutput2);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.totalLabel2);
             this.Controls.Add(this.taxOutput2);
             this.Controls.Add(this.taxLabel2);
             this.Controls.Add(this.subtotalOutput2);
@@ -539,9 +538,8 @@
             this.Controls.Add(this.subtotalLabel);
             this.Controls.Add(this.novelLabel);
             this.Controls.Add(this.title);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "form";
-            this.Text = "Entertainment Store";
+            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -586,7 +584,7 @@
         private System.Windows.Forms.TextBox taxOutput2;
         private System.Windows.Forms.Label taxLabel2;
         private System.Windows.Forms.TextBox totalOutput2;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label totalLabel2;
         private System.Windows.Forms.Label thankYou;
         private System.Windows.Forms.TextBox tenderedOutput;
         private System.Windows.Forms.Label tenderedLabel2;

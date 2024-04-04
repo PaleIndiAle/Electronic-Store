@@ -45,7 +45,7 @@ namespace Pizza_Parlour
         {
             try
             {
-                storeLabel.Visible = false;
+                this.Size = new Size(512, 415);
                 novelLabel2.Visible = false;
                 graphicLabel2.Visible = false;
                 toyLabel2.Visible = false;
@@ -54,9 +54,18 @@ namespace Pizza_Parlour
                 taxLabel2.Visible = false;
                 totalLabel2.Visible = false;
                 tenderedLabel2.Visible = false;
-                totalLabel2.Visible = false;
                 changeLabel2.Visible = false;
-                thnakYou.Visible = false;
+                thankYou.Visible = false;
+                novelOutput.Visible = false;
+                graphicOutput.Visible = false;
+                toyOutput.Visible = false;
+                gameOutput.Visible = false;
+                subtotalOutput2.Visible = false;
+                taxOutput2.Visible = false;
+                totalOutput2.Visible = false;
+                tenderedOutput.Visible = false;
+                totalOutput2.Visible = false;
+                changeOutput2.Visible = false;
                 novel = Convert.ToInt32(novelInput.Text);
                 graphic = Convert.ToInt32(graphicInput.Text);
                 toy = Convert.ToInt32(toyInput.Text);
@@ -72,6 +81,7 @@ namespace Pizza_Parlour
                 subtotalOutput.Text = $"{subtotal.ToString("C")}";
                 taxOutput.Text = $"{tax.ToString("C")}";
                 totalOutput.Text = $"{total.ToString("C")}";
+                Refresh();
                 changeButton.Enabled = true;
             }
             catch
@@ -109,40 +119,57 @@ namespace Pizza_Parlour
             player.URL = @"C:\Users\KNS\Downloads\Wooden Long Sliding Door (Sound Effect) #shorts.mp3";
             player.controls.play();
 
-            storeLabel.Visible = true;
-            novelOutput.Text = $"{novelTotal.ToString("C")}";
-            Thread.Sleep(1000);
             novelLabel2.Visible = true;
+            novelOutput.Visible = true;
             novelOutput.Text = $"{novelTotal.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
             graphicLabel2.Visible = true;
+            graphicOutput.Visible = true;
             graphicOutput.Text = $"{graphicTotal.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
+            toyOutput.Visible = true;
             toyLabel2.Visible = true;
             toyOutput.Text = $"{toyTotal.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
+            gameOutput.Visible = true;
             gameLabel2.Visible = true;
             gameOutput.Text = $"{gameTotal.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
+            subtotalOutput2.Visible = true;
             subtotalLabel2.Visible = true;
             subtotalOutput2.Text = $"{subtotal.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
+            taxOutput2.Visible = true;
             taxLabel2.Visible = true;
             taxOutput2.Text = $"{tax.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
+            totalOutput2.Visible = true;
             totalLabel2.Visible = true;
             totalOutput2.Text = $"{total.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
+            tenderedOutput.Visible = true;
             tenderedLabel2.Visible = true;
             tenderedOutput.Text = $"{tenderedAmount.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
+            totalOutput.Visible = true;
             totalLabel2.Visible = true;
             totalOutput.Text = $"{total.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
+            changeOutput2.Visible = true;
             changeLabel2.Visible = true;
             changeOutput2.Text = $"{changeAmount.ToString("C")}";
+            Refresh();
             Thread.Sleep(1000);
-            thnakYou.Visible = true;
+            thankYou.Visible = true;
         }
     }
 }
