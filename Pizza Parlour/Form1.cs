@@ -174,7 +174,34 @@ namespace Pizza_Parlour
             Refresh();
             Thread.Sleep(1000);
             thankYou.Visible = true;
-            calculateButton.Text = "Calculate New Order";
+            newOrderButton.Enabled = true;
+        }
+
+        private void newOrderButton_Click(object sender, EventArgs e)
+        {
+            novel = 0;
+            graphic = 0;
+            toy = 0;
+            game = 0;
+            novelTotal = 0;
+            graphicTotal = 0;
+            toyTotal = 0;
+            gameTotal = 0;
+            subtotal = 0;
+            tax = 0;
+            total = 0;
+            tenderedAmount = 0;
+            changeAmount = 0;
+            this.Size = new Size(512, 415);
+            subtotalOutput.Text = "";
+            taxOutput.Text = "";
+            totalOutput.Text = "";
+            TenderedInput.Text = "";
+            changeOutput.Text = "";
+            novelInput.Text = "";
+            toyInput.Text = "";
+            graphicInput.Text = "";
+            gamesInput.Text = "";
         }
     }
 }
