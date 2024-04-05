@@ -117,13 +117,15 @@
             // 
             // calculateButton
             // 
+            this.calculateButton.BackColor = System.Drawing.Color.Blue;
             this.calculateButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculateButton.ForeColor = System.Drawing.Color.White;
             this.calculateButton.Location = new System.Drawing.Point(36, 123);
             this.calculateButton.Name = "calculateButton";
             this.calculateButton.Size = new System.Drawing.Size(109, 50);
             this.calculateButton.TabIndex = 5;
             this.calculateButton.Text = "Calculate Total";
-            this.calculateButton.UseVisualStyleBackColor = true;
+            this.calculateButton.UseVisualStyleBackColor = false;
             this.calculateButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // subtotalOutput
@@ -209,14 +211,16 @@
             // 
             // changeButton
             // 
+            this.changeButton.BackColor = System.Drawing.Color.Blue;
             this.changeButton.Enabled = false;
             this.changeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeButton.ForeColor = System.Drawing.Color.White;
             this.changeButton.Location = new System.Drawing.Point(58, 253);
             this.changeButton.Name = "changeButton";
             this.changeButton.Size = new System.Drawing.Size(99, 38);
             this.changeButton.TabIndex = 18;
             this.changeButton.Text = "Calculate Change";
-            this.changeButton.UseVisualStyleBackColor = true;
+            this.changeButton.UseVisualStyleBackColor = false;
             this.changeButton.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // changeOutput
@@ -240,14 +244,16 @@
             // 
             // printButton
             // 
+            this.printButton.BackColor = System.Drawing.Color.Blue;
             this.printButton.Enabled = false;
             this.printButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.printButton.ForeColor = System.Drawing.Color.White;
             this.printButton.Location = new System.Drawing.Point(379, 227);
             this.printButton.Name = "printButton";
             this.printButton.Size = new System.Drawing.Size(113, 49);
             this.printButton.TabIndex = 21;
             this.printButton.Text = "Print Receipt";
-            this.printButton.UseVisualStyleBackColor = true;
+            this.printButton.UseVisualStyleBackColor = false;
             this.printButton.Click += new System.EventHandler(this.button2_Click);
             // 
             // label6
@@ -263,6 +269,7 @@
             // storeLabel
             // 
             this.storeLabel.AutoSize = true;
+            this.storeLabel.BackColor = System.Drawing.Color.White;
             this.storeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.storeLabel.Location = new System.Drawing.Point(594, 26);
             this.storeLabel.Name = "storeLabel";
@@ -300,7 +307,7 @@
             // novelLabel2
             // 
             this.novelLabel2.AutoSize = true;
-            this.novelLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.novelLabel2.BackColor = System.Drawing.Color.White;
             this.novelLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.novelLabel2.Location = new System.Drawing.Point(532, 59);
             this.novelLabel2.Name = "novelLabel2";
@@ -320,7 +327,7 @@
             // graphicLabel2
             // 
             this.graphicLabel2.AutoSize = true;
-            this.graphicLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.graphicLabel2.BackColor = System.Drawing.Color.White;
             this.graphicLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.graphicLabel2.Location = new System.Drawing.Point(532, 87);
             this.graphicLabel2.Name = "graphicLabel2";
@@ -358,7 +365,7 @@
             // toyLabel2
             // 
             this.toyLabel2.AutoSize = true;
-            this.toyLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.toyLabel2.BackColor = System.Drawing.Color.White;
             this.toyLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toyLabel2.Location = new System.Drawing.Point(532, 114);
             this.toyLabel2.Name = "toyLabel2";
@@ -378,7 +385,7 @@
             // gameLabel2
             // 
             this.gameLabel2.AutoSize = true;
-            this.gameLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.gameLabel2.BackColor = System.Drawing.Color.White;
             this.gameLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gameLabel2.Location = new System.Drawing.Point(532, 142);
             this.gameLabel2.Name = "gameLabel2";
@@ -398,6 +405,7 @@
             // subtotalLabel2
             // 
             this.subtotalLabel2.AutoSize = true;
+            this.subtotalLabel2.BackColor = System.Drawing.Color.White;
             this.subtotalLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subtotalLabel2.Location = new System.Drawing.Point(532, 186);
             this.subtotalLabel2.Name = "subtotalLabel2";
@@ -417,6 +425,7 @@
             // taxLabel2
             // 
             this.taxLabel2.AutoSize = true;
+            this.taxLabel2.BackColor = System.Drawing.Color.White;
             this.taxLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.taxLabel2.Location = new System.Drawing.Point(532, 216);
             this.taxLabel2.Name = "taxLabel2";
@@ -436,6 +445,7 @@
             // totalLabel2
             // 
             this.totalLabel2.AutoSize = true;
+            this.totalLabel2.BackColor = System.Drawing.Color.White;
             this.totalLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.totalLabel2.Location = new System.Drawing.Point(532, 247);
             this.totalLabel2.Name = "totalLabel2";
@@ -446,6 +456,7 @@
             // thankYou
             // 
             this.thankYou.AutoSize = true;
+            this.thankYou.BackColor = System.Drawing.Color.White;
             this.thankYou.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.thankYou.Location = new System.Drawing.Point(724, 203);
             this.thankYou.Name = "thankYou";
@@ -466,6 +477,7 @@
             // tenderedLabel2
             // 
             this.tenderedLabel2.AutoSize = true;
+            this.tenderedLabel2.BackColor = System.Drawing.Color.White;
             this.tenderedLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenderedLabel2.Location = new System.Drawing.Point(532, 275);
             this.tenderedLabel2.Name = "tenderedLabel2";
@@ -485,6 +497,7 @@
             // changeLabel2
             // 
             this.changeLabel2.AutoSize = true;
+            this.changeLabel2.BackColor = System.Drawing.Color.White;
             this.changeLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.changeLabel2.Location = new System.Drawing.Point(532, 304);
             this.changeLabel2.Name = "changeLabel2";
@@ -494,20 +507,23 @@
             // 
             // newOrderButton
             // 
+            this.newOrderButton.BackColor = System.Drawing.Color.Blue;
             this.newOrderButton.Enabled = false;
             this.newOrderButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.newOrderButton.ForeColor = System.Drawing.Color.White;
             this.newOrderButton.Location = new System.Drawing.Point(379, 293);
             this.newOrderButton.Name = "newOrderButton";
             this.newOrderButton.Size = new System.Drawing.Size(113, 49);
             this.newOrderButton.TabIndex = 43;
             this.newOrderButton.Text = "New Order";
-            this.newOrderButton.UseVisualStyleBackColor = true;
+            this.newOrderButton.UseVisualStyleBackColor = false;
             this.newOrderButton.Click += new System.EventHandler(this.newOrderButton_Click);
             // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Yellow;
             this.ClientSize = new System.Drawing.Size(824, 376);
             this.Controls.Add(this.newOrderButton);
             this.Controls.Add(this.changeOutput2);
